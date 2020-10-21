@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>正向代理 | 小飞的博客</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/imgs/avatar.jpeg">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.4d0e6560.css" as="style"><link rel="preload" href="/assets/js/app.6b0df02a.js" as="script"><link rel="preload" href="/assets/js/2.d05876c7.js" as="script"><link rel="preload" href="/assets/js/22.142005e0.js" as="script"><link rel="prefetch" href="/assets/js/10.ffd3e786.js"><link rel="prefetch" href="/assets/js/11.138c62a9.js"><link rel="prefetch" href="/assets/js/12.c54fbf61.js"><link rel="prefetch" href="/assets/js/13.154888f1.js"><link rel="prefetch" href="/assets/js/14.951fd072.js"><link rel="prefetch" href="/assets/js/15.96e965a5.js"><link rel="prefetch" href="/assets/js/16.2563d3a6.js"><link rel="prefetch" href="/assets/js/17.6505b026.js"><link rel="prefetch" href="/assets/js/18.33aaff62.js"><link rel="prefetch" href="/assets/js/19.884c31f9.js"><link rel="prefetch" href="/assets/js/20.ba37b079.js"><link rel="prefetch" href="/assets/js/21.8a305ccb.js"><link rel="prefetch" href="/assets/js/23.d2b09be3.js"><link rel="prefetch" href="/assets/js/24.29762f46.js"><link rel="prefetch" href="/assets/js/25.01d11347.js"><link rel="prefetch" href="/assets/js/26.d04eb654.js"><link rel="prefetch" href="/assets/js/27.f7e0a0f4.js"><link rel="prefetch" href="/assets/js/28.72a12f48.js"><link rel="prefetch" href="/assets/js/29.d68aa1d6.js"><link rel="prefetch" href="/assets/js/3.6262e7b2.js"><link rel="prefetch" href="/assets/js/4.35722598.js"><link rel="prefetch" href="/assets/js/5.854416d2.js"><link rel="prefetch" href="/assets/js/6.7a9e4d83.js"><link rel="prefetch" href="/assets/js/7.bfe1eaa9.js"><link rel="prefetch" href="/assets/js/8.39253767.js"><link rel="prefetch" href="/assets/js/9.a9bf6fcb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4d0e6560.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/imgs/avatar.jpeg" alt="小飞的博客" class="logo"> <span class="site-name can-hide">小飞的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/three/javascript/methods.html" class="nav-link">
+  三小强
+</a></div><div class="nav-item"><a href="/vue/sourceCode/computed.html" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/chrome/principle/chrome.html" class="nav-link">
+  浏览器
+</a></div><div class="nav-item"><a href="/http/edition/0.9.html" class="nav-link">
+  HTTP
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/three/javascript/methods.html" class="nav-link">
+  三小强
+</a></div><div class="nav-item"><a href="/vue/sourceCode/computed.html" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/chrome/principle/chrome.html" class="nav-link">
+  浏览器
+</a></div><div class="nav-item"><a href="/http/edition/0.9.html" class="nav-link">
+  HTTP
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>状态码</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>缓存</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>原理</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/http/principle/mi.html" class="sidebar-link">加密</a></li><li><a href="/http/principle/ssl.html" class="sidebar-link">SSL</a></li><li><a href="/http/principle/polling.html" class="sidebar-link">轮询</a></li><li><a href="/http/principle/proxy.html" aria-current="page" class="active sidebar-link">代理</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="正向代理"><a href="#正向代理" class="header-anchor">#</a> 正向代理</h3> <p>我们常说的代理也就是指正向代理，正向代理的过程，它隐藏了真实的请求客户端，服务端不知道真实的客户端是谁，客户端请求的服务都被代理服务器代替来请求。</p> <h3 id="反向代理"><a href="#反向代理" class="header-anchor">#</a> 反向代理</h3> <p>这种代理模式下，它隐藏了真实的服务端，当我们向一个网站发起请求的时候，背后可能有成千上万台服务器为我们服务，具体是哪一台，我们不清楚，我们只需要知道反向代理服务器是谁就行，而且反向代理服务器会帮我们把请求转发到真实的服务器那里去，一般而言反向代理服务器一般用来实现负载平衡。</p> <h3 id="负载平衡的两种实现方式"><a href="#负载平衡的两种实现方式" class="header-anchor">#</a> 负载平衡的两种实现方式</h3> <ul><li>一种是使用反向代理的方式，用户的请求都发送到反向代理服务上，然后由反向代理服务器来转发请求到真实的服务器上，以此来实现集群的负载平衡。</li></ul> <ul><li>另一种是 DNS 的方式，DNS 可以用于在冗余的服务器上实现负载平衡。因为现在一般的大型网站使用多台服务器提供服务，因此一个域名可能会对应多个服务器地址。当用户向网站域名请求的时候，DNS 服务器返回这个域名所对应的服务器 IP 地址的集合，但在每个回答中，会循环这些 IP 地址的顺序，用户一般会选择排在前面的地址发送请求。以此将用户的请求均衡的分配到各个不同的服务器上，这样来实现负载均衡。这种方式有一个缺点就是，由于 DNS 服务器中存在缓存，所以有可能一个服务器出现故障后，域名解析仍然返回的是那个 IP 地址，就会造成访问的问题。</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/http/principle/polling.html" class="prev">
+        轮询
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6b0df02a.js" defer></script><script src="/assets/js/2.d05876c7.js" defer></script><script src="/assets/js/22.142005e0.js" defer></script>
+  </body>
+</html>
